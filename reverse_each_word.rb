@@ -8,12 +8,12 @@ def reverse_each_word(sentence1)
   end
 end
 
-def reverse_each_word(string)
-    new_array = [] 
-    array = string.split
-    new_array = array.collect {|i| i.reverse}
-    new_array.join(" ")  
-  end
+# def reverse_each_word(string)
+#     new_array = [] 
+#     array = string.split
+#     new_array = array.collect {|i| i.reverse}
+#     new_array.join(" ")  
+#   end
 
 # def reverse_each_word(sentence1)
 #   split_sentence = sentence1.split
