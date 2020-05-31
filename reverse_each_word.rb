@@ -2,8 +2,7 @@ require "pry"
 
 def reverse_each_word(sentence1)
   split_sentence=sentence1.split
-  split_sentence.each do|words|.reverse
-  binding.pry
+  new_line=split_sentence.each do|words|word.reverse
   end
 end
 
