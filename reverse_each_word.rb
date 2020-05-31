@@ -6,12 +6,13 @@ def reverse_each_word(string)
     new_array = array.collect {|i| i.reverse}
     new_array.join(" ")  
   end
+end
 
 def reverse_each_word(words)
   word = []
   word << words.split(' ')
-  word.each do |opposit|
-    puts opposit.reverse()
+  word.each do |opposite|
+    puts opposite.reverse()
   end 
 end
 
