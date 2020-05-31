@@ -2,7 +2,7 @@ def reverse_each_word(sentence1)
   sentence1.split
   sentence1.each do|words|
   sentence1.reverse
- 
+  end
 end
   
 # def reverse_each_word(sentence)
