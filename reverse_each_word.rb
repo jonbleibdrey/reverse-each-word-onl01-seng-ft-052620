@@ -4,12 +4,12 @@ def reverse_each_word(sentence1)
   end
 end
 
-def reverse_each_word(sentence1)
-  split_sentence = sentence1.split
-  split_sentence.each do|words|
+# def reverse_each_word(sentence1)
+#   split_sentence = sentence1.split
+#   split_sentence.each do|words|
   	
-  end
-end
+#   end
+# end
   
 # def reverse_each_word(sentence)
 #   sentence_array = sentence.split
