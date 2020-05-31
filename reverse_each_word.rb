@@ -1,7 +1,14 @@
 def reverse_each_word(sentence1)
-  sentence1.split
-  sentence1.each do|words|
+  split_sentence=sentence1.split
+  split_sentence.each do|words|
   
+  end
+end
+
+def reverse_each_word(sentence1)
+  split_sentence = sentence1.split
+  split_sentence.each do|words|
+  	# now we're really iterating over the words
   end
 end
   
